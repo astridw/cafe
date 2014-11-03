@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def home
+  def index
+    @drinks = Drink.all
   end
 end
